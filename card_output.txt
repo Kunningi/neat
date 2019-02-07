@@ -1,0 +1,300 @@
+Rank:  1  (f = -17.5) 
+Genotype:  [False False  True False False False False False  True] 
+ 
+Rank:  2  (f = -15.633333333333333) 
+Genotype:  [ True False False False  True  True False False False] 
+ 
+Rank:  3  (f = 0.5166666666666666) 
+Genotype:  [ True False  True False  True  True  True  True False] 
+ 
+Rank:  4  (f = 0.06388888888888888) 
+Genotype:  [False False  True  True  True False  True False False] 
+ 
+Rank:  5  (f = 0.4805555555555555) 
+Genotype:  [False  True  True False  True  True  True  True False] 
+ 
+Rank:  6  (f = 0.8472222222222222) 
+Genotype:  [ True False  True False False  True  True  True False] 
+ 
+Rank:  7  (f = 0.7472222222222222) 
+Genotype:  [False False False  True  True False  True False  True] 
+ 
+Rank:  8  (f = 0.8611111111111112) 
+Genotype:  [False  True False False False False  True  True  True] 
+ 
+Rank:  9  (f = 0.8611111111111112) 
+Genotype:  [False  True False False False False  True  True  True] 
+ 
+Rank:  10  (f = 0.5) 
+Genotype:  [False  True  True  True False False  True  True  True] 
+ 
+Rank:  11  (f = -7.805555555555555) 
+Genotype:  [ True  True False  True False False  True False False] 
+ 
+Rank:  12  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  13  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  14  (f = 0.8611111111111112) 
+Genotype:  [False  True False False False False  True  True  True] 
+ 
+Rank:  15  (f = 0.6111111111111112) 
+Genotype:  [False  True  True False False  True  True  True False] 
+ 
+Rank:  16  (f = 0.7083333333333334) 
+Genotype:  [False False  True False False False  True  True  True] 
+ 
+Rank:  17  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  18  (f = 0.538888888888889) 
+Genotype:  [False  True False False  True  True  True  True False] 
+ 
+Rank:  19  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  20  (f = 0.4305555555555556) 
+Genotype:  [ True False  True  True False  True False  True False] 
+ 
+Rank:  21  (f = 0.7472222222222222) 
+Genotype:  [False False False  True  True False  True False  True] 
+ 
+Rank:  22  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  23  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  24  (f = -0.22222222222222232) 
+Genotype:  [False  True  True False False False  True  True False] 
+ 
+Rank:  25  (f = 0.7833333333333333) 
+Genotype:  [False False False  True  True False  True  True False] 
+ 
+Rank:  26  (f = 0.5625) 
+Genotype:  [False  True False  True False  True  True  True False] 
+ 
+Rank:  27  (f = 0.7638888888888888) 
+Genotype:  [ True False  True False False  True False  True  True] 
+ 
+Rank:  28  (f = 0.5527777777777778) 
+Genotype:  [ True  True False False  True  True  True  True False] 
+ 
+Rank:  29  (f = -1.15) 
+Genotype:  [False False False False  True  True  True False False] 
+ 
+Rank:  30  (f = 0.5625) 
+Genotype:  [False  True False  True False  True  True  True False] 
+ 
+Rank:  31  (f = 0.5833333333333334) 
+Genotype:  [False False False False False  True  True  True  True] 
+ 
+Rank:  32  (f = 0.5166666666666666) 
+Genotype:  [ True False  True False  True  True  True  True False] 
+ 
+Rank:  33  (f = 0.6111111111111112) 
+Genotype:  [False  True  True False False  True  True  True False] 
+ 
+Rank:  34  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  35  (f = -7.805555555555555) 
+Genotype:  [ True  True False  True False False  True False False] 
+ 
+Rank:  36  (f = -0.2777777777777777) 
+Genotype:  [False  True  True False False  True False False  True] 
+ 
+Rank:  37  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  38  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  39  (f = 0.5694444444444444) 
+Genotype:  [False  True False False False  True  True  True False] 
+ 
+Rank:  40  (f = 0.7111111111111111) 
+Genotype:  [False False False  True  True False False  True  True] 
+ 
+Rank:  41  (f = 0.5277777777777778) 
+Genotype:  [ True False  True False False  True  True  True  True] 
+ 
+Rank:  42  (f = 0.7083333333333334) 
+Genotype:  [False  True  True  True False False  True  True False] 
+ 
+Rank:  43  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  44  (f = 0.8611111111111112) 
+Genotype:  [False  True False False False False  True  True  True] 
+ 
+Rank:  45  (f = 0.7361111111111112) 
+Genotype:  [ True False False  True False  True  True  True False] 
+ 
+Rank:  46  (f = 0.8472222222222222) 
+Genotype:  [ True False  True False False  True  True  True False] 
+ 
+Rank:  47  (f = 0.49583333333333335) 
+Genotype:  [ True  True False  True  True  True  True  True False] 
+ 
+Rank:  48  (f = 0.5527777777777778) 
+Genotype:  [ True  True False False  True  True  True  True False] 
+ 
+Rank:  49  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  50  (f = 0.7111111111111111) 
+Genotype:  [False False False  True  True False False  True  True] 
+ 
+Rank:  51  (f = 0.6111111111111112) 
+Genotype:  [False  True  True False False  True  True  True False] 
+ 
+Rank:  52  (f = -0.75) 
+Genotype:  [False  True  True False False  True  True False False] 
+ 
+Rank:  53  (f = 0.49444444444444446) 
+Genotype:  [ True  True  True False  True  True  True  True False] 
+ 
+Rank:  54  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  55  (f = 0.49583333333333335) 
+Genotype:  [ True  True False  True  True  True  True  True False] 
+ 
+Rank:  56  (f = 0.6111111111111112) 
+Genotype:  [False  True  True False False  True  True  True False] 
+ 
+Rank:  57  (f = 0.5166666666666666) 
+Genotype:  [ True False  True False  True  True  True  True False] 
+ 
+Rank:  58  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  59  (f = 0.8472222222222222) 
+Genotype:  [ True False  True False False  True  True  True False] 
+ 
+Rank:  60  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  61  (f = 0.8055555555555556) 
+Genotype:  [False  True  True  True False  True  True False False] 
+ 
+Rank:  62  (f = 0.4805555555555555) 
+Genotype:  [False  True  True False  True  True  True  True False] 
+ 
+Rank:  63  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  64  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  65  (f = 0.7111111111111111) 
+Genotype:  [False False False  True  True False False  True  True] 
+ 
+Rank:  66  (f = 0.7472222222222222) 
+Genotype:  [False False False  True  True False  True False  True] 
+ 
+Rank:  67  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  68  (f = 0.7361111111111112) 
+Genotype:  [ True False False  True False  True  True  True False] 
+ 
+Rank:  69  (f = 0.8333333333333334) 
+Genotype:  [False False  True False False  True  True  True False] 
+ 
+Rank:  70  (f = 0.8611111111111112) 
+Genotype:  [False  True False False False False  True  True  True] 
+ 
+Rank:  71  (f = -17.5) 
+Genotype:  [False False  True False False False False False  True] 
+ 
+Rank:  72  (f = -15.633333333333333) 
+Genotype:  [ True False False False  True  True False False False] 
+ 
+Rank:  73  (f = 0.8611111111111112) 
+Genotype:  [False  True False False False False  True  True  True] 
+ 
+Rank:  74  (f = 0.8611111111111112) 
+Genotype:  [False  True False False False False  True  True  True] 
+ 
+Rank:  75  (f = 0.5833333333333334) 
+Genotype:  [False False False False False  True  True  True  True] 
+ 
+Rank:  76  (f = 0.5833333333333334) 
+Genotype:  [False False False False False  True  True  True  True] 
+ 
+Rank:  77  (f = 0.5833333333333334) 
+Genotype:  [False False False False False  True  True  True  True] 
+ 
+Rank:  78  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  79  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  80  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  81  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  82  (f = -7.805555555555555) 
+Genotype:  [ True  True False  True False False  True False False] 
+ 
+Rank:  83  (f = 0.8055555555555556) 
+Genotype:  [False  True  True  True False  True  True False False] 
+ 
+Rank:  84  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  85  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  86  (f = 0.5527777777777778) 
+Genotype:  [ True  True False False  True  True  True  True False] 
+ 
+Rank:  87  (f = 0.5527777777777778) 
+Genotype:  [ True  True False False  True  True  True  True False] 
+ 
+Rank:  88  (f = 0.5833333333333334) 
+Genotype:  [False False False False False  True  True  True  True] 
+ 
+Rank:  89  (f = 0.5277777777777778) 
+Genotype:  [ True False  True False False  True  True  True  True] 
+ 
+Rank:  90  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  91  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  92  (f = 0.875) 
+Genotype:  [ True  True False False False False  True  True  True] 
+ 
+Rank:  93  (f = 0.06388888888888888) 
+Genotype:  [False False  True  True  True False  True False False] 
+ 
+Rank:  94  (f = -15.633333333333333) 
+Genotype:  [ True False False False  True  True False False False] 
+ 
+Rank:  95  (f = 0.5694444444444444) 
+Genotype:  [False  True False False False  True  True  True False] 
+ 
+Rank:  96  (f = 0.5694444444444444) 
+Genotype:  [False  True False False False  True  True  True False] 
+ 
+Rank:  97  (f = 0.5694444444444444) 
+Genotype:  [False  True False False False  True  True  True False] 
+ 
+Rank:  98  (f = 0.5694444444444444) 
+Genotype:  [False  True False False False  True  True  True False] 
+ 
+Rank:  99  (f = -15.633333333333333) 
+Genotype:  [ True False False False  True  True False False False] 
+ 
+Rank:  100  (f = -15.633333333333333) 
+Genotype:  [ True False False False  True  True False False False] 
+ 

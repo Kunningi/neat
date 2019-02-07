@@ -50,6 +50,8 @@ def simulation(length, population, pm, pi):
     plt.title('Tournaments vs. Fitness')
     plt.show()
 
+    #write output
+    sim.output()
     return
     
     

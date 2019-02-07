@@ -67,7 +67,7 @@ class Card():
 
         s_error = abs((s-36)/36)
         m_error = abs((m-360)/360)
-        fitness = 1 - (s_error + m_error) / 2
+        fitness = 1 - ((s_error + m_error)/2)
 
         return fitness
         
@@ -129,3 +129,42 @@ class Card():
         self.mutate(loser)
         
         return
+    
+    
+    
+    
+    def output(self): 
+        """Writes a file containing the genotypes of the population, sorted by fitness."""
+    
+        output = open('card_output.txt', 'w')
+       
+        #create list of fitness values
+        fl = []
+        for individual in range(self.population):
+            fl.append(self.fitness(individual))
+        
+        #create list of sorted fitness values
+        sfl = sorted(fl)
+        
+        #for value in sfl, find its index in original list (analogous to index 
+        #in population)
+        sil = []
+        for f in sfl:  
+            
+            i = fl.index(f)
+            sil.append(i)
+            fl.pop(i)
+        
+        rank = 1    
+        for i in sil:
+    
+            output.write('Rank:  %s  (f = %s) \n' % (rank, self.fitness(i)))
+            output.write('Genotype:  %s \n \n' % (self.gene_pool[i]))
+            #output.write(' ')
+            rank += 1
+            
+        output.close()
+            
+        return
+    
+        
