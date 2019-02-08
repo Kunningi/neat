@@ -7,8 +7,8 @@ Created on Tuesday Feb 5 8:33 2019
 """
 
 import matplotlib.pyplot as plt
-
-from config.scratches.Card_Generational import *
+import numpy as np
+from Card_Generational import *
 
 
 def fitnessFunction(x):
@@ -25,10 +25,8 @@ def fitnessFunction(x):
             card += 1
     s_error = abs((s - 36) / 36)
     m_error = abs((m - 360) / 360)
-    for n in range(ea.population_size):
-        ea.fit[n] = 1 - (s_error + m_error) / 2
+    return 1 - (s_error + m_error) / 2
 
-    return ea.fit
 
 population_size = 100
 p_mutation = 0.1

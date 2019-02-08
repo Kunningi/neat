@@ -49,7 +49,7 @@ class Card_Generational():
 
     def evaluateFitness(self):  ##
         for i in range(self.population_size):
-            self.fit[i] = self.fitnessFunction(self.initial_gene_pool[i])
+            self.fit[i] = self.fitnessFunction(i)
 
     def rank(self):
         """Ranks the agent after assessing fitness"""
