@@ -129,7 +129,7 @@ def compare_cards(population):
         
         pm = pm_index * 0.01
         
-        
+        #edit this to ea.Cardmp if you want to switch the order of mutation and recombination
         emilie = ea.Card(population, pm, 0.5)        
         for step in range(0, (population * 5) ):
             
@@ -164,10 +164,10 @@ def compare_cards(population):
     plt.show()
 
 
-#covary_fixed_population(20)
+covary_fixed_population(20)
 
-#covary_fixed_pi(0.5)
+covary_fixed_pi(0.5)
 
-compare_cards(20)
+#compare_cards(20)
 
-#simulation(1000, 100, 0.1, 0.5)
+#single_graph(1000, 100, 0.1, 0.5)
