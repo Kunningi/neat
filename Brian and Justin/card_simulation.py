@@ -192,11 +192,11 @@ def compare_cards(population):
 
 
 start_time = time.time()
-covary_fixed_population(25, 10, 100)
+#covary_fixed_population(25, 10, 100)
 print("--- %s seconds ---" % (time.time() - start_time))
 
 start_time = time.time()
-covary_fixed_pi(25, 10, 100)
+covary_fixed_pi(0.5, 10, 100)
 print("--- %s seconds ---" % (time.time() - start_time))
 
 #compare_cards(20)
