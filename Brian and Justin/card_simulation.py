@@ -9,6 +9,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import Card as ea
 import Cardmp as ea_mi
+import time
+
+
+#tracking runtime
+start_time = time.time()
 
 
 def single_graph(length, population, pm, pi):
@@ -58,36 +63,47 @@ def single_graph(length, population, pm, pi):
     
   
     
-def covary_fixed_population(population):
+def covary_fixed_population(population, metapopulation, generations):
     
-    fitness_array = np.zeros((101,101))
+    fitness_array = np.zeros((11,11))
     
-    for pi in range(101):
+    for pi_index in range(11):
         
-        for pm in range(101):
+        for pm_index in range(11):
             
-            emilie = ea.Card(population, pm, pi)
-            
-            for step in range(20):
-                emilie.step()
-        
+            pm = pm_index / 50
+            pi = pi_index / 10
+            emilie = []
             fitlist = []
-            for individual in range(population):
-                fitlist.append(emilie.fitness(individual))
-            fitlist.sort()
             
-            fitness_array[pi][pm] = fitlist[int(population/2)]
+            for trial in range(metapopulation):
+            
+                 emilie.append(ea.Card(population, pm, pi))
+                 
+                 for step in range(generations*population):
+                     emilie[trial].step()
+             
+                 trial_fitlist = []
+                 for individual in range(population):
+                     trial_fitlist.append(emilie[trial].fitness(individual))
+                 trial_fitlist.sort()
+                 
+                 median = trial_fitlist[int(population/2)]
+                 fitlist.append(median)
+         
+            fitness_array[pi_index][pm_index] = sum(fitlist)/len(fitlist)
+
 
     plt.imshow(fitness_array)
     plt.xlabel('Gene-wise Probability of Mutation')
-    plt.ylabel('Gene-wise Probability of Inheritance')
-    plt.title('Population = %s' % population)
+    plt.ylabel('Gene-wise Probability of Recombination')
+    plt.title('Population = %s, Generations = %s, Metapopulation = %s' % (population, generations, metapopulation))
     plt.show()
     
 
 
 
-def covary_fixed_pi(pi):
+def covary_fixed_pi(pi, metapopulation, generations):
     
     fitness_array = np.zeros((11,11))
     
@@ -96,25 +112,32 @@ def covary_fixed_pi(pi):
         for pm_index in range(0,11):
             
             
-            pm = pm_index * 0.05
-            population = (pop_index+1) * 10
-            
-            emilie = ea.Card(population, pm, pi)
-            for step in range(population):
-                emilie.step()
-        
+            pm = pm_index / 50
+            population = (pop_index+1) * 5
+            emilie = []
             fitlist = []
-            for individual in range(population):
-                fitlist.append(emilie.fitness(individual))
-            fitlist.sort()
             
-            fitness_array[pop_index][pm_index] = fitlist[int(population/2)]
-
+            for trial in range(metapopulation):
+            
+                 emilie.append(ea.Card(population, pm, pi))
+                 
+                 for step in range(generations*population):
+                     emilie[trial].step()
+             
+                 trial_fitlist = []
+                 for individual in range(population):
+                     trial_fitlist.append(emilie[trial].fitness(individual))
+                 trial_fitlist.sort()
+                 
+                 median = trial_fitlist[int(population/2)]
+                 fitlist.append(median)
+         
+            fitness_array[pop_index][pm_index] = sum(fitlist)/len(fitlist)            
 
     plt.imshow(fitness_array)
     plt.xlabel('Gene-wise Probability of Mutation')
-    plt.ylabel('Population/10')
-    plt.title('Probability of Inheritance = %s' % pi)
+    plt.ylabel('Population')
+    plt.title('Probability of Recombination = %s, Generations = %s, Metapopulation = %s' % (pi, generations, metapopulation))
     plt.show()
 
 
@@ -164,6 +187,7 @@ def compare_cards(population):
     plt.show()
 
 
+<<<<<<< HEAD
 covary_fixed_population(20)
 
 covary_fixed_pi(0.5)
@@ -171,3 +195,20 @@ covary_fixed_pi(0.5)
 #compare_cards(20)
 
 #single_graph(1000, 100, 0.1, 0.5)
+=======
+#----------------------- CALLS ------------------------------------------------
+
+
+
+start_time = time.time()
+#covary_fixed_population(25, 10, 100)
+print("--- %s seconds ---" % (time.time() - start_time))
+
+start_time = time.time()
+covary_fixed_pi(0.5, 10, 100)
+print("--- %s seconds ---" % (time.time() - start_time))
+
+#compare_cards(20)
+
+single_graph(1000, 100, 0.1, 0.5)
+>>>>>>> f06821c42686ba0312182052ec1aac74e464bcdb
