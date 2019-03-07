@@ -187,7 +187,6 @@ def compare_cards(population):
     plt.show()
 
 
-<<<<<<< HEAD
 covary_fixed_population(20)
 
 covary_fixed_pi(0.5)
@@ -195,7 +194,7 @@ covary_fixed_pi(0.5)
 #compare_cards(20)
 
 #single_graph(1000, 100, 0.1, 0.5)
-=======
+
 #----------------------- CALLS ------------------------------------------------
 
 
@@ -211,4 +210,3 @@ print("--- %s seconds ---" % (time.time() - start_time))
 #compare_cards(20)
 
 single_graph(1000, 100, 0.1, 0.5)
->>>>>>> f06821c42686ba0312182052ec1aac74e464bcdb
