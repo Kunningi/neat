@@ -43,15 +43,16 @@ class Axelrod():
            
            if self.cc == True:    #if counterculture enabled, do that too
                
-               self.counterculture(ai, aj)
+               self.counterculture()
                
            self.age += 1    #keep track of how many steps have been run
                        
        
         
     #not testing for now
-    def counterculture(self, ai, aj):
-        
+    def counterculture(self):
+       
+        ai, aj = np.random.randint(self.sz, size=2)    #randomly select active cell
         f = np.random.randint(self.nf)    #pick a feature
         tc = np.zeros(self.nt)    #count variable for traits within feature
         
@@ -147,15 +148,15 @@ class Axelrod():
     
     
     
-    def show_feature(self):
+    def show_feature(self, f):
         data = np.zeros((self.sz, self.sz))    #initialize grid for graphing
         for i in range(self.sz):    #traverse through grid for populating
             for j in range(self.sz):
                 
-                data[i][j] = self.grid[i][j][0]  #populate cell with trait of feature 0
+                data[i][j] = self.grid[i][j][f]  #populate cell with trait of feature 0
                 
         plt.imshow(data, cmap='Set1')
-        plt.title('Feature 0 After %s Events (CC = %s)' % (self.age, self.cc))
+        plt.title('Feature %s After %s Events (CC = %s)' % (f, self.age, self.cc))
         plt.xlabel('X')
         plt.ylabel('Y')
         plt.show()
